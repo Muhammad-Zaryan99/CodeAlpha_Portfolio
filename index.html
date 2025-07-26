@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="hero1">
+            <img src="logo.jpg">
+            <ul>
+                <li><a  class="active" onclick="showSection('home')">Home</a></li>
+                <li><a  onclick="showSection('about')">About</a></li>
+                <li><a  onclick="showSection('services')">Skills</a></li>
+                <li><a  onclick="showSection('portfolio')">Projects</a></li>
+                <li><a  onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hero2 active" id="home">
+            <p>Frontend Developer</p>
+            <h1>I'm <span>Muhammad Zary</span> <br>from Pakistan</h1>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="zarr.webp">
+                </div>
+                <div class="col2">
+                    <h1>About Me</h1>
+                    <p>
+                        My name is Muhammad Zaryan. I am from Pakistan . I am a frontend developer. I have to start to work on Backend and Database.My aim is to become a Full Stack Developer
+                   </p>
+                    <div class="titles">
+                        <p class="spc activel">Skills</p>
+                        <p class="spc"></p>
+                        <p class="spc"></p>
+                    </div>
+                    <div class="list1">
+                        <ul>
+                            <li><span>HTML5</span><br></li>
+                            <li><span>CSS3</span><br></li>
+                            <li><span>JavaScript</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="d2">
+            <h1>My Skills</h1>
+            <div class="slist">
+                <div class="a1">
+                    <h2>HTML 5</h2>
+                    <p>I craft modern, responsive, and semantic web experiences using HTML5.My skills include leveraging HTML5 features like canvas, multimedia, and APIs to build dynamic, accessible websites.</p>
+                </div>
+                <div class="a1">
+                    <h2>CSS3</h2>
+                    <p>I design visually stunning and responsive layouts using CSS3.My skills include creating pixel-perfect, cross-browser compatible styles that enhance user experience.</p>
+                </div>
+                <div class="a1">
+                    <h2>JavaScript</h2>
+                    <p>I build dynamic, interactive web applications using modern JavaScript (ES6+), leveraging features like async/await, modules, and arrow functions. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <h1>My Works</h1>
+        <div class="slist">
+            <div class="w1">
+                <h2>Netflix Clone</h2>
+                <p class="spcc">A sleek Netflix interface clone featuring a responsive design with intuitive navigation, vibrant visuals.</p>
+            </div>
+            <div class="w1">
+                <h2>Calculator</h2>
+                <p class="spcc">A stylish calculator built with HTML, CSS, and JavaScript, offering all arithmetic operations.</p>
+            </div>
+            <div class="w1">
+                <h2>Zomato Clone</h2>
+                <p class="spcc">A vibrant Zomato interface clone crafted with HTML, CSS, and JavaScript, replicating the seamless restaurant </p>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <p>Email: zaryanarain79@gmail.com</p>
+        <p>Phone: +92 3285519221</p>
+        <p>Address: Millatabad, Sargodha, Pakistan</p>
+    </div>
+
+    <script src="scrpt.js"></script>
+</body>
+</html>
